@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: It was easy to determine the merge sort as sort2, due to its significantly higher speed at Big O cases. This sorting algorithm was performing somewhat close to sort3 in random and reversed cases (though sort 3 was faster). My certainty in the assignement comes from the fact that when input was already sorted, this algorithim performed linearly as the input was increased, which implied that the "if no swaps were performed {return}" optimisation of the bubble sort.
+
+sort2 uses: merge sort
+
+How do you know?: Given big problem sets, such as random50000 and reversed50000, this sorting algorithm performs significantly better than sort1 and sort2. In these Big O cases, this would indicate merge sort over the selection and bubble.
+
+sort3 uses: selection sort
+
+How do you know?: As described above, sort2 was quickly assigned as merge sort and sort1 and sort3 were somewhat close. When it came to the sorted input, this sort algorithm was performing significanly worse compared to sort1 and roughly, the input size suggested an exponential time increase => selection sort.
