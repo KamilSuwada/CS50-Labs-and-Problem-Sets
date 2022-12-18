@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <h3>What will make your car faster?</h3>
+
+                <button class = "correct">Add bigger turbocharger.</button>
+                <button class = "incorrect">Increase car weight.</button>
+                <button class = "incorrect">Add M Sport badge.</button>
+                <button class = "incorrect">Add Apple sticker.</button>
+
+                <p id="feedbackQ1"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <h3>What is a reasonable 0-62 mph time of a family hatchback? (answer in seconds)</h3>
+
+                <input type="text"></input>
+                <button id="checkAnswerButton">Check Answer!</button>
+
+                <p id="feedbackQ2"></p>
+            </div>
+        </div>
+    </body>
+</html>
